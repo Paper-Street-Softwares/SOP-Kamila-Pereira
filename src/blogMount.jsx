@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import BlogPosts from "@/components/sections/BlogPosts";
 
-import "@/index.css"; // 👈 IMPORTANTE
+import "@/index.css";
 
 const el = document.getElementById("blog-react");
 

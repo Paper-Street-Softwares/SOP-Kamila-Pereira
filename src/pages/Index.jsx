@@ -45,6 +45,7 @@ import FormNovoTemplate from "../components/sections/FormNovoTemplate";
 import AuthorityAndAlert from "../components/sections/AuthorityAndAlert";
 import SocialProof from "../components/sections/SocialProof";
 import SIteCompleto from "../components/sections/SIteCompleto";
+import ModalFooter from "../modalFooter";
 
 export default function Index() {
   const { colorMode, setColorMode } = useColorMode();
@@ -54,6 +55,7 @@ export default function Index() {
       <ColorModeProvider>
         <main>
           <SIteCompleto />
+          <ModalFooter />
         </main>
       </ColorModeProvider>
     </>

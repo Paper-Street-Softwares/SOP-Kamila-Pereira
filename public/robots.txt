@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://civel-caio.advespecialista.adv.br/sitemap.xml

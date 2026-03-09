@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.unfix-ios-bg {
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: initial !important;
+  }
+}
+
+/* Não remover este item abaixo pois ele faz com que as seções possam alternar */
+:root {
+  --primaryDark: theme(colors.primaryDark);
+}
+/* Não remover este item acima pois ele faz com que as seções possam alternar */

@@ -1,4 +1,4 @@
-function SIteCompleto() {
+function SiteCompleto() {
   return (
     <div className="">
       <iframe src="/site.html" className="h-screen w-full" />
@@ -6,4 +6,4 @@ function SIteCompleto() {
   );
 }
 
-export default SIteCompleto;
+export default SiteCompleto;

@@ -44,7 +44,7 @@ import Parceria from "../components/sections/Parceria";
 import FormNovoTemplate from "../components/sections/FormNovoTemplate";
 import AuthorityAndAlert from "../components/sections/AuthorityAndAlert";
 import SocialProof from "../components/sections/SocialProof";
-import SIteCompleto from "../components/sections/SIteCompleto";
+import SiteCompleto from "../components/sections/SiteCompleto";
 import ModalFooter from "../modalFooter";
 
 export default function Index() {
@@ -54,7 +54,7 @@ export default function Index() {
     <>
       <ColorModeProvider>
         <main>
-          <SIteCompleto />
+          <SiteCompleto />
         </main>
       </ColorModeProvider>
     </>

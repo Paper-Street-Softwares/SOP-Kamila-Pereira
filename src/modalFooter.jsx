@@ -1,52 +1,40 @@
 import React, { useState } from "react";
-import { X } from "lucide-react"; // <-- alteração
 import { Dialog } from "primereact/dialog";
-import content from "./content/content";
+import { X } from "lucide-react";
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 
-function ModalFooter({ triggerText = "Políticas de Privacidade" }) {
+export default function ModalFooter({
+  triggerText = "Políticas de Privacidade",
+}) {
   const [visible, setVisible] = useState(false);
-
-  const openDialog = async () => {
-    await import("primereact/resources/themes/lara-light-cyan/theme.css");
-    setVisible(true);
-  };
 
   return (
     <>
       <div
-        onClick={openDialog}
+        onClick={() => setVisible(true)}
         style={{
           cursor: "pointer",
           textDecoration: "underline",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingBottom: "20px",
+          textAlign: "center",
+          padding: "10px 0",
           backgroundColor: "#000",
           color: "#fff",
+          width: "100%",
         }}
-        aria-label="Abre um Modal com os termos da Política de privacidade"
-        className=""
       >
         {triggerText}
       </div>
 
       <Dialog
-        className="font-secondFont"
-        closeIcon={<X size={20} />}
         visible={visible}
         onHide={() => setVisible(false)}
-        style={{ width: "50vw" }}
-        breakpoints={{
-          "4000px": "641px",
-          "1024px": "641px",
-          "641px": "85vw",
-        }}
+        closeIcon={<X size={20} />}
+        style={{ width: "50vw", maxWidth: "90%" }}
       >
-        {content.texts.footer.privacidade}
+        <p>Aqui vai o conteúdo das Políticas de Privacidade.</p>
       </Dialog>
     </>
   );
 }
-
-export default ModalFooter;

@@ -1,8 +1,6 @@
-import React from "react";
-
 function SIteCompleto() {
   return (
-    <div>
+    <div className="">
       <iframe src="/site.html" className="h-screen w-full" />
     </div>
   );

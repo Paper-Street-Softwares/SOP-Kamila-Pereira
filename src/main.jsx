@@ -12,6 +12,7 @@ import GlobalClickEvent from "./context/GlobalClickEvent.jsx";
 // Altere aqui para "LP" ou "site"
 const mode = "LP"; // só muda isso e o resto se adapta
 
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ColorModeProvider>
     <GlobalClickEvent />{" "}

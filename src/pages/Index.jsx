@@ -55,7 +55,6 @@ export default function Index() {
       <ColorModeProvider>
         <main>
           <SIteCompleto />
-          <ModalFooter />
         </main>
       </ColorModeProvider>
     </>

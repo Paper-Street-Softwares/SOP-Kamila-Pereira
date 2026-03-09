@@ -555,13 +555,14 @@ const content = {
       ctaButtonText: <>Quero análise do meu caso</>,
     },
     blog: {
-      miniTag: <>A_Definir</>,
-      title: <>A_Definir</>,
-      subtitle: "",
+      miniTag: <>BLOG</>,
+      title: <>Informação jurídica ao seu alcance</>,
+      subtitle:
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "", //sem "https://"
+      blogLink: "kamilapereiraadvocacia.wordpress.com", //sem "https://"
     },
     parceria: {
       miniTag: <>A_Definir</>,

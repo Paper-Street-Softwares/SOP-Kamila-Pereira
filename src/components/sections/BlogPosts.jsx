@@ -65,15 +65,42 @@ function BlogPosts({ colorMode }) {
 
   return (
     <div>
-      <SectionArea className={backgroundMode} id="blog">
+      <SectionArea className={backgroundMode} paddingbot={false} id="blog">
         <SectionWrapper>
-          <SectionHeaderNovo
-            className="text-center"
-            miniTitle={content.texts.blog.miniTag}
-            title={content.texts.blog.title}
-            subtitle={content.texts.blog.subtitle}
-            colorMode={colorMode}
-          />
+          <div
+            class="elementor-element elementor-element-3afb35f elementor-widget elementor-widget-heading"
+            data-id="3afb35f"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                {content.texts.blog.miniTag}
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-fac6d06 elementor-widget elementor-widget-heading"
+            data-id="fac6d06"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                {content.texts.blog.title}
+              </h2>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-41af107 elementor-widget elementor-widget-text-editor"
+            data-id="41af107"
+            data-element_type="widget"
+            data-widget_type="text-editor.default"
+          >
+            <div class="elementor-widget-container">
+              {content.texts.blog.subtitle}
+            </div>
+          </div>
 
           <ul className="flex flex-wrap gap-[30px] justify-center">
             {posts.slice(0, visibleCount).map((post) => (

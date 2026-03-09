@@ -44,6 +44,7 @@ import Parceria from "../components/sections/Parceria";
 import FormNovoTemplate from "../components/sections/FormNovoTemplate";
 import AuthorityAndAlert from "../components/sections/AuthorityAndAlert";
 import SocialProof from "../components/sections/SocialProof";
+import SIteCompleto from "../components/sections/SIteCompleto";
 
 export default function Index() {
   const { colorMode, setColorMode } = useColorMode();
@@ -51,133 +52,8 @@ export default function Index() {
   return (
     <>
       <ColorModeProvider>
-        {/* Render imediato */}
-        <NavbarNovaTemplate colorMode={colorMode} />
-
         <main>
-          <AlternatingSection index={0} colorMode={colorMode} forcePrimaryDark>
-            <HeroTemplateNovo colorMode={colorMode} obs={true} obsTwo={false} />
-          </AlternatingSection>
-
-          <AlternatingSection index={1} colorMode={colorMode}>
-            <Important colorMode={colorMode} />
-          </AlternatingSection>
-
-          <AlternatingSection index={2} colorMode={colorMode}>
-            <Suspense>
-              <FeaturesNovaTemplate
-                colorMode={colorMode}
-                frasesDestaque={true}
-                accordion={false}
-                modal={false}
-              />
-            </Suspense>
-          </AlternatingSection>
-
-          {/* <AlternatingSection index={3} colorMode={colorMode}>
-            <Speed colorMode={colorMode} />
-          </AlternatingSection> */}
-
-          <AlternatingSection index={3} colorMode={colorMode}>
-            <Suspense>
-              <AboutNovoTemplate
-                colorMode={colorMode}
-                ButtonModal={false}
-                benefits={false}
-              />
-              {/* <SocialMediaTemplate colorMode={colorMode} /> */}
-            </Suspense>
-          </AlternatingSection>
-
-          <AlternatingSection index={4} colorMode={colorMode} forcePrimaryDark>
-            <Suspense>
-              <CtaNovoTemplate colorMode={colorMode} container={true} />
-            </Suspense>
-          </AlternatingSection>
-
-          <AlternatingSection index={5} colorMode={colorMode}>
-            <Suspense>
-              <StepsNovoTemplate colorMode={colorMode} />
-            </Suspense>
-          </AlternatingSection>
-
-          <AlternatingSection index={6} colorMode={colorMode}>
-            <Suspense>
-              <FaqNovoTemplate colorMode={colorMode} />
-            </Suspense>
-          </AlternatingSection>
-
-          <AlternatingSection index={7} colorMode={colorMode} forcePrimaryDark>
-            <Suspense>
-              <FooterNovoTemplate
-                colorMode={colorMode}
-                mapa={false}
-                phone={true}
-                phoneSecond={false}
-                expediente={true}
-                adress={false}
-                email={true}
-                emailSecond={false}
-                fraseFooter={true} // frase Google LLC
-                obs={false}
-              />
-            </Suspense>
-          </AlternatingSection>
-
-          {/* <Suspense fallback={null}>
-            <WhatsappAnimated colorMode={colorMode} />
-          </Suspense> */}
-          {/* <AlternatingSection index={1} colorMode={colorMode}>
-            <AuthorityAndAlert />
-          </AlternatingSection> */}
-          {/* <AlternatingSection index={1} colorMode={colorMode}>
-            <FormNovoTemplate />
-          </AlternatingSection> */}
-
-          {/* <AlternatingSection index={1} colorMode={colorMode}>
-            <Emergency colorMode={colorMode} />
-          </AlternatingSection> */}
-
-          {/* <AlternatingSection index={1} colorMode={colorMode}>
-            <SocialProof colorMode={colorMode} />
-          </AlternatingSection> */}
-
-          {/* <AlternatingSection index={12} colorMode={colorMode}>
-            <Suspense>
-              <Parceria colorMode={colorMode} />
-            </Suspense>
-          </AlternatingSection> */}
-
-          {/* <AlternatingSection index={6} colorMode={colorMode}>
-            <Suspense>
-              <Authority colorMode={colorMode} />
-            </Suspense>
-          </AlternatingSection> */}
-
-          {/* <AlternatingSection index={7} colorMode={colorMode}>
-            <Suspense>
-              <BlogPosts colorMode={colorMode} />
-            </Suspense>
-          </AlternatingSection> */}
-          {/* <AlternatingSection index={4} colorMode={colorMode} forcePrimaryDark>
-            <Suspense>
-              <CtaNovoTemplate colorMode={colorMode} container={true} />
-            </Suspense>
-          </AlternatingSection> */}
-
-          {/* <AlternatingSection index={4} colorMode={colorMode}>
-            <Suspense>
-              <Diferences colorMode={colorMode} />
-            </Suspense>
-          </AlternatingSection> */}
-
-          {/* DICAS */}
-
-          {/* <AlternatingSection index={3} colorMode={colorMode}>
-            <Suspense>
-              <Cards colorMode={colorMode} />
-            </Suspense>
-          </AlternatingSection> */}
+          <SIteCompleto />
         </main>
       </ColorModeProvider>
     </>

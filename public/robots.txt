@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://A_Definir/sitemap.xml
+Sitemap: https://bancario.kamilapereiraadvocacia.com.br/sitemap.xml

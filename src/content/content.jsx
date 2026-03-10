@@ -43,9 +43,6 @@ import {
   CheckCircle2,
   Clock,
   ShieldCheck,
-  Building,
-  ChartCandlestick,
-  ChartPie,
 } from "lucide-react";
 
 import { FileText } from "lucide-react";
@@ -53,14 +50,14 @@ import { FileText } from "lucide-react";
 const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: " Dr. Caio Lins",
+  name: "A_Definir",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "civel-caio.advespecialista.adv.br", // Sem "www"
+  domain: "A_Definir", // Sem "www"
   phone: {
-    ddd: "27",
-    firstPart: "99940", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "0815", // Apenas os 4 últimos números
+    ddd: "00",
+    firstPart: "00000", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "0000", // Apenas os 4 últimos números
   },
   phoneSecundario: {
     ddd: "00",
@@ -76,10 +73,9 @@ export const infos = {
     <div>
       {/* <p>Endereço:</p> */}
       <p>Endereço:</p>
-      <p>Av. Angelo Gilbert,</p>
-      <p>nº 109, Sala 101,</p>
-      <p>Bairro Vila Nova Colatina - ES,</p>
-      <p>CEP: 29702-060</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
+      <p>A_Definir</p>
     </div>
   ),
   enderecoSecundario: (
@@ -138,37 +134,25 @@ const content = {
           {/* 🚨 */}
         </>
       ),
-      miniTag: <>ADVOGADO CÍVEL E BANCÁRIO</>,
-      FirstPart: <span>Procurando um </span>,
+      miniTag: <>A_Definir</>,
+      FirstPart: <span>A_Definir</span>,
       Destaque: (
-        <span className="destaque relative italic font-light">
-          Advogado Cível<span className="text-white">?</span>
-        </span>
+        <span className="destaque relative italic font-light">A_Definir</span>
       ),
       SecondPart: <span></span>,
-      subtitle: (
-        <p>
-          Atuação em conflitos civis, contratos e problemas com bancos, com
-          estratégia e segurança jurídica.
-        </p>
-      ),
+      subtitle: <p>A_Definir</p>,
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
       heroDefaulMobiletImg: heroDefaultMobileImg,
 
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: <>Falar com o Advogado agora</>,
+      ctaButtonText: <>A_Definir</>,
       ctaButtonTextSecondary: <>A_Definir</>,
       obsHero: {
         icon: <> {/* ⚠️ */}</>,
         iconTwo: <></>,
-        text: (
-          <>
-            Atendimento online e presencial (para quem puder comparecer ou
-            residir próximo).
-          </>
-        ),
+        text: <>A_Definir</>,
         textTwo: <>A_Definir</>,
       },
       secondaryCta: "Contato",
@@ -208,79 +192,43 @@ const content = {
       ctaButtonText: <>A_Definir</>,
     },
     important: {
-      miniTag: <>ATENÇÃO</>,
-      title: <>O que você precisa saber sobre conflitos cíveis</>,
+      miniTag: <>A_Definir</>,
+      title: <>A_Definir</>,
       cards: {
         card1: {
-          title: <>Preciso mesmo de advogado para resolver isso?</>,
-          paragraph: (
-            <>
-              Em muitos conflitos civis, ter um advogado desde o início evita
-              prejuízos maiores. A análise jurídica permite identificar
-              direitos, avaliar riscos e definir a estratégia adequada para
-              resolver o problema de forma segura.
-            </>
-          ),
+          title: <>A_Definir</>,
+          paragraph: <>A_Definir</>,
         },
         card2: {
-          title: (
-            <>E se o banco ou a outra parte estiver me cobrando injustamente?</>
-          ),
-          paragraph: (
-            <>
-              Situações de cobrança abusiva ou contratos desequilibrados podem
-              ser contestadas judicialmente. A análise do caso permite verificar
-              irregularidades, revisar cláusulas contratuais e buscar a solução
-              jurídica adequada.
-            </>
-          ),
+          title: <>A_Definir</>,
+          paragraph: <>A_Definir</>,
         },
         card3: {
-          title: <>Meu caso ainda tem solução ou já é tarde?</>,
-          paragraph: (
-            <>
-              Muitos conflitos ainda podem ser resolvidos mesmo quando parecem
-              complexos. Cada situação precisa ser analisada individualmente
-              para identificar as alternativas jurídicas possíveis e o melhor
-              caminho a seguir.
-            </>
-          ),
+          title: <>A_Definir</>,
+          paragraph: <>A_Definir</>,
         },
         card4: {
-          title: <>Entrar com processo é sempre a única saída?</>,
-          paragraph: (
-            <>
-              Nem sempre. Dependendo do caso, é possível buscar soluções por
-              meio de negociação ou medidas estratégicas antes de iniciar um
-              processo judicial. O objetivo é sempre encontrar a forma mais
-              eficaz de resolver o conflito.
-            </>
-          ),
+          title: <>A_Definir</>,
+          paragraph: <>A_Definir</>,
         },
       },
-      fraseObs: (
-        <>Entre em contato conosco e lhe daremos todo o suporte necessário</>
-      ),
-      ctaButtonText: <>Falar conosco agora pelo WhatsApp</>,
+      fraseObs: <>A_Definir</>,
+      ctaButtonText: <>A_Definir</>,
     },
     features: {
-      miniTag: <>COMO PODEMOS TE AJUDAR</>,
-      FirstPart: <span>Enfrentando</span>,
-      Destaque: <span className="italic font-light">problemas</span>,
-      SecondPart: <span> com bancos, patrimônio ou outros?</span>,
-      subtitle: (
-        <>Atuação jurídica para reduzir dívidas e proteger patrimônio.</>
-      ),
+      miniTag: <>A_Definir</>,
+      FirstPart: <span>A_Definir</span>,
+      Destaque: <span className="italic font-light">A_Definir</span>,
+      SecondPart: <span></span>,
+      subtitle: <>A_Definir</>,
       imgFeatures: imgFeatures,
       alt: "Imagem ilustrativa da Features",
-      titleMessageFeature: <>100%</>,
-      subtitleMessageFeature: <> estratégia contra abusos</>,
+      titleMessageFeature: <>A_Definir</>,
+      subtitleMessageFeature: <>A_Definir</>,
       cards: {
         card1: {
-          title: <>Direito Bancário</>,
-          subtitle: (
-            <>Defesa e revisão de dívidas bancárias acima de R$50 mil.</>
-          ),
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
           description: (
             <div>
               A_Definir
@@ -289,16 +237,14 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <Building />,
+          icon: <Briefcase />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
 
         card2: {
-          title: <>Direito Civil - Patrimonial</>,
-          subtitle: (
-            <>Inventário, divórcio, usucapião e disputas patrimoniais.</>
-          ),
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
           description: (
             <div>
               A_Definir
@@ -307,16 +253,14 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <ChartPie />,
+          icon: <User />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
 
         card3: {
-          title: <>Direito Civil - Contratos</>,
-          subtitle: (
-            <>Elaboração, análise e revisão de contratos com segurança.</>
-          ),
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
           description: (
             <div>
               A_Definir
@@ -325,16 +269,14 @@ const content = {
               A_Definir
             </div>
           ),
-          icon: <FileText />,
+          icon: <Scale />,
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
 
         card4: {
-          title: <>Assessoria Jurídica Recorrente</>,
-          subtitle: (
-            <>Suporte jurídico contínuo para decisões empresariais seguras.</>
-          ),
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
           description: (
             <div>
               A_Definir
@@ -347,8 +289,72 @@ const content = {
           buttonLabelModal: "Fale Conosco",
           buttonLabel: "Saiba Mais",
         },
+
+        card5: {
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <Users />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+
+        card6: {
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <MessageSquare />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+
+        card7: {
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <Shield />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
+
+        card8: {
+          title: <>A_Definir</>,
+          subtitle: <>A_Definir</>,
+          description: (
+            <div>
+              A_Definir
+              <br />
+              <br />
+              A_Definir
+            </div>
+          ),
+          icon: <Briefcase />,
+          buttonLabelModal: "Fale Conosco",
+          buttonLabel: "Saiba Mais",
+        },
       },
-      ctaButtonText: <>Falar com o Advogado</>,
+      ctaButtonText: <>A_Definir</>,
     },
     cardsSection: {
       miniTag: <>A_Definir</>,
@@ -400,32 +406,12 @@ const content = {
         img: aboutImg,
         alt: "Imagem ilustrativa da Seção Sobre",
       },
-      miniTag: <>QUEM É O DR CAIO LINS</>,
-      FirstPart: <span> Minha</span>,
-      Destaque: <span className="italic font-light"> trajetória</span>,
+      miniTag: <>A_Definir</>,
+      FirstPart: <span> A_Definir </span>,
+      Destaque: <span className="italic font-light"> A_Definir</span>,
       SecondPart: <span></span>,
-      subtitle: (
-        <>
-          Atuação voltada à defesa em conflitos bancários, civis e empresariais.
-        </>
-      ),
-      paragraph: (
-        <div>
-          Meu trabalho é ajudar pessoas e empresas a enfrentarem conflitos
-          jurídicos com estratégia, segurança e clareza.
-          <br />
-          <br />
-          Atuo principalmente em demandas contra instituições financeiras,
-          disputas patrimoniais e conflitos contratuais, buscando sempre
-          soluções que reduzam riscos, reorganizem passivos e protejam os
-          interesses dos meus clientes.
-          <br />
-          <br />
-          Cada caso é analisado de forma individual, com foco em encontrar o
-          melhor caminho jurídico para resolver o problema com eficiência e
-          segurança.
-        </div>
-      ),
+      subtitle: <></>,
+      paragraph: <div>A_Definir</div>,
       benefits: {
         cards: {
           card1: {
@@ -450,7 +436,7 @@ const content = {
           },
         },
       },
-      ctaButtonText: <>Falar diretamente comigo</>,
+      ctaButtonText: <>A_Definir</>,
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p className="font-secondFont">
@@ -488,71 +474,57 @@ const content = {
       // },
     },
     ctaSection: {
-      miniTag: <>Fale conosco</>,
-      title: <h1>Fale agora com o Advogado</h1>,
+      miniTag: <>A_Definir</>,
+      title: <h1>A_Definir</h1>,
       subtitle: (
         <div>
-          <p className="mb-6 font-secondFont">
-            Se você enfrenta problemas com bancos, contratos ou questões civis,
-            fale agora e receba orientação jurídica.
-          </p>
+          <p className="mb-6 font-secondFont">A_Definir</p>
         </div>
       ),
       container: {
         topics: {
-          topic1: <>Análise inicial do seu caso</>,
-          topic2: <>Atendimento direto com o Advogado, sem intermediários</>,
-          topic3: <>Resposta rápida e acompanhamento pelo WhatsApp</>,
-          topic4: <>Estratégia jurídica clara desde o primeiro contato</>,
-          topic5: <>Orientação segura para proteger seus direitos</>,
+          topic1: <>A_Definir</>,
+          topic2: <>A_Definir</>,
+          topic3: <>A_Definir</>,
+          topic4: <>A_Definir</>,
         },
       },
-      ctaButtonText: <>Quero falar com o Advogado agora</>,
+      ctaButtonText: <>A_Definir</>,
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
     },
     steps: {
-      miniTag: <>COMO FUNCIONA</>,
-      FirstPart: <span>Do primeiro contato </span>,
-      Destaque: <span className="italic font-light">à solução</span>,
-      SecondPart: <span> do seu caso</span>,
+      miniTag: <>A_Definir</>,
+      FirstPart: <span> A_Definir</span>,
+      Destaque: <span className="italic font-light"> A_Definir </span>,
+      SecondPart: <span>A_Definir</span>,
 
-      subtitle: (
-        <>
-          Um processo claro, estratégico e conduzido diretamente por Advogado.
-        </>
-      ),
+      subtitle: <></>,
       img: imgSteps,
       alt: "Imagem ilustrativa da Seção Passo a Passo",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: <>Conte seu caso</>,
-          cardDescription: (
-            <>Explique sua situação e receba uma análise inicial.</>
-          ),
+          cardTitle: <>A_Definir</>,
+          cardDescription: <>A_Definir</>,
         },
         card2: {
           stepNumber: 2,
-          cardTitle: <>Análise jurídica</>,
-          cardDescription: (
-            <>Seu caso é avaliado com estratégia e base legal.</>
-          ),
+          cardTitle: <>A_Definir</>,
+          cardDescription: <>A_Definir</>,
         },
         card3: {
           stepNumber: 3,
-          cardTitle: <>Definição da estratégia</>,
-          cardDescription: <>Identificamos o melhor caminho para seu caso.</>,
+          cardTitle: <>A_Definir</>,
+          cardDescription: <>A_Definir</>,
         },
         card4: {
           stepNumber: 4,
-          cardTitle: <>Atuação e acompanhamento</>,
-          cardDescription: (
-            <>Cuidamos de todo o processo com suporte contínuo.</>
-          ),
+          cardTitle: <>A_Definir</>,
+          cardDescription: <>A_Definir</>,
         },
       },
-      ctaButtonText: <>Quero análise do meu caso</>,
+      ctaButtonText: <>A_Definir</>,
     },
     blog: {
       miniTag: <>BLOG</>,
@@ -656,57 +628,25 @@ const content = {
       ctaButtonText: <>A_Definir</>,
     },
     faq: {
-      miniTag: <>TIRE SUAS DÚVIDAS</>,
-      title: <>Perguntas Frequentes</>,
-      subtitle: <>Confira as perguntas abaixo para esclarecer suas dúvidas.</>,
+      miniTag: <>A_Definir</>,
+      title: <>A_Definir</>,
+      subtitle: <>A_Definir</>,
       questions: {
         question1: {
-          question: <>O banco pode cobrar juros ou taxas abusivas?</>,
-          answer: (
-            <>
-              Em alguns casos, eles fazem. Contratos bancários podem conter
-              juros acima da média de mercado, tarifas indevidas ou cláusulas
-              que colocam o cliente em desvantagem. Quando isso acontece, é
-              possível contestar essas cobranças e buscar a revisão do contrato
-              para restabelecer o equilíbrio da relação com a instituição
-              financeira.
-            </>
-          ),
+          question: <>A_Definir</>,
+          answer: <>A_Definir</>,
         },
         question2: {
-          question: <>Mesmo com parcelas atrasadas ainda dá pra resolver?</>,
-          answer: (
-            <>
-              Sim. Estar com parcelas em atraso não impede a análise do contrato
-              ou a adoção de medidas jurídicas. Em muitos casos, a revisão
-              contratual ou uma estratégia jurídica adequada pode ajudar a
-              reorganizar a dívida ou reduzir cobranças abusivas.
-            </>
-          ),
+          question: <>A_Definir</>,
+          answer: <>A_Definir</>,
         },
         question3: {
-          question: (
-            <>Como saber se meu contrato com o banco tem algo errado?</>
-          ),
-          answer: (
-            <>
-              A forma mais segura é por meio de uma análise jurídica do
-              contrato. Nessa avaliação são verificados fatores como taxa de
-              juros, encargos aplicados, tarifas cobradas e eventuais cláusulas
-              abusivas que possam prejudicar o cliente.
-            </>
-          ),
+          question: <>A_Definir</>,
+          answer: <>A_Definir</>,
         },
         question4: {
-          question: <>Entrar na justiça contra banco vale a pena?</>,
-          answer: (
-            <>
-              Depende da situação. Quando há cobrança indevida, juros abusivos
-              ou cláusulas irregulares, a atuação jurídica pode buscar a revisão
-              do contrato, a devolução de valores pagos a mais ou a
-              reestruturação da dívida de forma mais justa.
-            </>
-          ),
+          question: <>A_Definir</>,
+          answer: <>A_Definir</>,
         },
       },
 

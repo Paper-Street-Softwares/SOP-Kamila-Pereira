@@ -141,7 +141,7 @@ function BlogPosts({ colorMode }) {
 
           <MotionDivDownToUp>
             <p
-              className={`flex justify-center mx-auto mt-12 scale-100 hover:scale-90 duration-500 w-fit transition-all cursor-pointer ${linkColor} `}
+              className={`flex justify-center mx-auto mt-12 scale-100 hover:scale-90 duration-500 w-fit transition-all cursor-pointer ${linkColor} rounded-lg bg-gradient-to-t text-white px-3 py-2 to-[#e29e54] from-[#be8241]`}
             >
               <a
                 href={`https://${content.texts.blog.blogLink}`}

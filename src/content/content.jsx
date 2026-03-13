@@ -534,7 +534,7 @@ const content = {
       img: imgSteps,
       labelCards: "Ver mais",
       label: "Clique aqui para ver todas as matérias",
-      blogLink: "kamilapereiraadvocacia.wordpress.com", //sem "https://"
+      blogLink: "kamilapereiraadvocacia0.wordpress.com", //sem "https://"
     },
     parceria: {
       miniTag: <>A_Definir</>,

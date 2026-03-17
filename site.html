@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>
-      Dra. Kamila Pereira | Advogada Especialista em Direito Bancário e Juros
+      Dra. Kamila Pereira | Advogada Especialista em Direito Bancário
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="max-image-preview:large" />
@@ -1446,6 +1446,35 @@
         }
       }
     </style>
+    <style>
+      /* Container continua flex */
+      .elementor-container {
+        display: flex;
+      }
+
+      /* 👉 Centraliza sua coluna NA FORÇA */
+      .herocontainer {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      /* 👉 Esconde a coluna vazia */
+      .hero-cont > .elementor-column:last-child {
+        display: none;
+      }
+
+      .text-hero {
+        text-align: center !important;
+      }
+
+      .items-hero {
+        text-align: center !important;
+      }
+
+      .img-hero {
+        max-width: 300px !important;
+      }
+    </style>
 
     <link
       rel="icon"
@@ -1498,16 +1527,16 @@
         class="elementor-section elementor-top-section elementor-element elementor-element-51f8d304 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
       >
         <div class="elementor-background-overlay"></div>
-        <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-container hero-cont elementor-column-gap-default">
           <div
-            class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4f9a7588 elementor-invisible"
+            class="elementor-column herocontainer elementor-col-50 elementor-top-column elementor-element elementor-element-4f9a7588 elementor-invisible"
             data-id="4f9a7588"
             data-element_type="column"
             data-settings='{"animation":"bounceInUp"}'
           >
             <div class="elementor-widget-wrap elementor-element-populated">
               <div
-                class="elementor-element elementor-element-195868bc elementor-widget elementor-widget-image"
+                class="elementor-element items-hero elementor-element-195868bc elementor-widget elementor-widget-image"
                 data-id="195868bc"
                 data-element_type="widget"
                 data-widget_type="image.default"
@@ -1519,7 +1548,7 @@
                     width="1024"
                     height="460"
                     src="./imgs/logo.webp"
-                    class="attachment-large size-large wp-image-77"
+                    class="attachment-large size-large wp-image-77 img-hero"
                     alt=""
                   />
                 </div>
@@ -1531,7 +1560,9 @@
                 data-widget_type="heading.default"
               >
                 <div class="elementor-widget-container">
-                  <h2 class="elementor-heading-title elementor-size-default">
+                  <h2
+                    class="elementor-heading-title text-hero elementor-size-default"
+                  >
                     Especialista em Direito Bancário
                   </h2>
                 </div>
@@ -1542,7 +1573,7 @@
                 data-element_type="widget"
                 data-widget_type="text-editor.default"
               >
-                <div class="elementor-widget-container">
+                <div class="elementor-widget-container text-hero">
                   Escritório de advocacia especializado em demandas no âmbito do
                   direito bancário.
                 </div>
@@ -1553,7 +1584,7 @@
                 data-element_type="widget"
                 data-widget_type="button.default"
               >
-                <div class="elementor-widget-container">
+                <div class="elementor-widget-container items-hero">
                   <div class="elementor-button-wrapper">
                     <a
                       class="elementor-button elementor-button-link elementor-size-sm elementor-animation-shrink"
@@ -1579,9 +1610,7 @@
             data-id="de54fc2"
             data-element_type="column"
             data-settings='{"animation":"bounceInUp"}'
-          >
-            <div class="elementor-widget-wrap"></div>
-          </div>
+          ></div>
         </div>
       </section>
       <section
